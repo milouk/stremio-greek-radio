@@ -5,7 +5,7 @@ RADIO_DATA = [
         "id": "0",
         "name": "Athens Deejay FM, Athens (Mainstream Pop, Top Hits) - 95.2 Athens "
         "DeeJay",
-        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaIB9fsCU0jerW_xyyecw4CRGQQBytfGBAVTeq7CXMwa1SmgAP80VxDCJ3keJk8uSelDA&usqp=CAU",
+        "poster": "https://cdn.e-radio.gr/logos/gr/500/deejay.png",
         "url": "http://94.23.0.114:41972",
     },
     {
@@ -13,7 +13,7 @@ RADIO_DATA = [
         "genres": ["Mainstream Pop", "Top Hits"],
         "id": "1",
         "name": "Music, Athens (Mainstream Pop, Top Hits) - Music 89.2",
-        "poster": "https://www.e-tetradio.gr/img/path/ca637f4c-9f7f-4e80-992d-5a1bd089c707_msc1505765785.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/music892-athens.png",
         "url": "https://stream.radiojar.com/k0hua7u1yk5tv",
     },
     {
@@ -29,7 +29,7 @@ RADIO_DATA = [
         "genres": ["Mainstream House", "Pop"],
         "id": "3",
         "name": "Mad, Athens (Mainstream House, Pop) - MAD RADIO",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/madradio1.png",
         "url": "http://mediaserver.mad.tv/stream",
     },
     {
@@ -37,15 +37,15 @@ RADIO_DATA = [
         "genres": ["Electronic House"],
         "id": "4",
         "name": "Best, Athens (Electronic House) - DB90-TX",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/bestradio.png",
         "url": "http://best.live24.gr/best1222",
     },
     {
         "frequency": "102.50",
         "genres": [],
         "id": "5",
-        "name": "Athens Voice - no name",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "name": "Athens Voice 102.5",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/athensvoicefm.png",
         "url": "http://nitro.live24.gr/nitro4555",
     },
     {
@@ -53,7 +53,7 @@ RADIO_DATA = [
         "genres": [],
         "id": "6",
         "name": "Ellada, Athens - ELLADA FM 943",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/ellada943.jpg",
         "url": "http://cast4.magicstreams.gr:10198",
     },
     {
@@ -61,7 +61,7 @@ RADIO_DATA = [
         "genres": ["Electronic House"],
         "id": "7",
         "name": "En Lefko, Athens (Electronic House) - En Lefko 877 radio",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://mm.aiircdn.com/630/5dd2b1d909000.png",
         "url": "https://stream.radiojar.com/enlefko877",
     },
     {
@@ -69,7 +69,7 @@ RADIO_DATA = [
         "genres": ["Easy Listening"],
         "id": "8",
         "name": "Pepper, Athens (Easy Listening) - pepper",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/pepper.jpg",
         "url": "https://stream.radiojar.com/pepper.m4a",
     },
     {
@@ -77,7 +77,7 @@ RADIO_DATA = [
         "genres": ["Adult Contemponary"],
         "id": "9",
         "name": "Kiss FM, Athens (Adult Contemponary) - Kiss Fm 92.9",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/kissfmathens.png",
         "url": "http://kissfm.live24.gr/kiss2111",
     },
     {
@@ -85,7 +85,7 @@ RADIO_DATA = [
         "genres": ["Easy Listening"],
         "id": "10",
         "name": "Easy, Athens (Easy Listening) - Easy 97.2",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://media.bauerradio.com/image/upload/c_crop,g_custom/v1641202384/brand_manager/stations/x4gn1gt9ip69ij5tknsl.png",
         "url": "https://stream.radiojar.com/cthtwxk5yvduv",
     },
     {
@@ -93,7 +93,7 @@ RADIO_DATA = [
         "genres": ["Easy Listening"],
         "id": "11",
         "name": "Galaxy, Athens (Easy Listening) - Galaxy 92",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/galaxypink.png",
         "url": "http://galaxy.live24.gr/galaxy9292",
     },
     {
@@ -101,7 +101,7 @@ RADIO_DATA = [
         "genres": ["Easy Listening"],
         "id": "12",
         "name": "Blue Space, Athens (Easy Listening) - Blue Space",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/bluespacefmlogo1072.png",
         "url": "https://cast5.streamhost.gr:8104/stream",
     },
     {
@@ -117,7 +117,7 @@ RADIO_DATA = [
         "genres": ["Rock"],
         "id": "14",
         "name": "Red, Athens (Rock) - RED 96.3",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/Red.png",
         "url": "https://stream.radiojar.com/redfm963",
     },
     {
@@ -125,7 +125,7 @@ RADIO_DATA = [
         "genres": ["Rock"],
         "id": "15",
         "name": "Rock FM, Athens (Rock) - Rock FM 96.9",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/rockfm.png",
         "url": "http://rockfmlive.mdc.akamaized.net/strmRCFm/userRCFm/playlist.m3u8",
     },
     {
@@ -133,7 +133,7 @@ RADIO_DATA = [
         "genres": ["Greek Rock"],
         "id": "16",
         "name": "Atlantis, Athens (Greek Rock) - Atlantis 105,2 FM",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/atlantisradio.png",
         "url": "http://85.10.206.222:8012/stream.mp3",
     },
     {
@@ -141,7 +141,7 @@ RADIO_DATA = [
         "genres": ["Greek Mainstream"],
         "id": "17",
         "name": "Dromos, Athens (Greek Mainstream) - DROMOS FM",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/dromosfm.png",
         "url": "https://stream.rcs.revma.com/10q3enqxbfhvv",
     },
     {
@@ -149,7 +149,7 @@ RADIO_DATA = [
         "genres": ["Greek Mainstream"],
         "id": "18",
         "name": "Sfera, Athens (Greek Mainstream) - www.sfera.gr",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/sfera-athens.png",
         "url": "http://sfera.live24.gr/sfera4132",
     },
     {
@@ -157,7 +157,7 @@ RADIO_DATA = [
         "genres": ["Greek Mainstream"],
         "id": "19",
         "name": "Lampsi, Athens (Greek Mainstream) - Lampsi 92.3",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/lampsifm.png",
         "url": "http://lampsifmlive.mdc.akamaized.net/strmLampsi/userLampsi/playlist.m3u8",
     },
     {
@@ -172,8 +172,8 @@ RADIO_DATA = [
         "frequency": "104.00",
         "genres": ["Mainstream Pop", " Top Hits"],
         "id": "21",
-        "name": "Party, Athens (Mainstream Pop, Top Hits) - This is my server name",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "name": "Party, Athens (Mainstream Pop, Top Hits)",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/athensparty.png",
         "url": "https://radio.streamings.gr:9006/stream",
     },
     {
@@ -181,7 +181,7 @@ RADIO_DATA = [
         "genres": ["Mainstream Pop", " Top Hits"],
         "id": "22",
         "name": "Radio Paradise, Poros (Mainstream Pop, Top Hits) - Netcast",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/500/paradise1016.jpg",
         "url": "http://213.239.206.179:8850",
     },
     {
@@ -189,7 +189,7 @@ RADIO_DATA = [
         "genres": ["Greek", " Folk"],
         "id": "23",
         "name": "Derti, Athens (Greek, Folk) - www.derti.gr",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/dertiwebradio.png",
         "url": "http://derti.live24.gr/derty1000",
     },
     {
@@ -198,7 +198,7 @@ RADIO_DATA = [
         "id": "24",
         "name": "Palmos, Poros (Greek, Folk) - Palmos Radio 102.7 Fm  * "
         "www.palmosradio.gr *",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/palmosradio1027.jpg",
         "url": "http://s6.onweb.gr:8010/;stream",
     },
     {
@@ -206,7 +206,7 @@ RADIO_DATA = [
         "genres": ["Art Music", " Folk", " Greek"],
         "id": "25",
         "name": "Ellinikos, Athens (Art Music, Folk, Greek) - Ellinikos",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/ellinikos932.png",
         "url": "http://orange.live24.gr/orange9320",
     },
     {
@@ -214,7 +214,7 @@ RADIO_DATA = [
         "genres": ["Art Music", " Folk", " Greek"],
         "id": "26",
         "name": "Mousikos, Athens (Art Music, Folk, Greek) - Mousikos",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/mousikosathina.png",
         "url": "https://netradio.live24.gr/mousikos986",
     },
     {
@@ -222,7 +222,7 @@ RADIO_DATA = [
         "genres": ["Art Music", " Folk", " Greek"],
         "id": "27",
         "name": "Diesi, Athens (Art Music, Folk, Greek) - DIESI FM",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/diesi.png",
         "url": "http://diesi.live24.gr/diesi1013",
     },
     {
@@ -230,7 +230,7 @@ RADIO_DATA = [
         "genres": ["Art Music", " Greek"],
         "id": "28",
         "name": "Melodia, Athens (Art Music, Greek) - Melodia",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/melodia.png",
         "url": "https://stream.radiojar.com/8du64725e3quv",
     },
     {
@@ -238,15 +238,15 @@ RADIO_DATA = [
         "genres": ["Art Music", " Greek"],
         "id": "29",
         "name": "Menta, Athens (Art Music, Greek) - menta",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/menta88.png",
         "url": "https://stream.radiojar.com/menta.aac",
     },
     {
         "frequency": "97.50",
         "genres": ["Easy Listening", " Greek"],
         "id": "30",
-        "name": "Love, Athens (Easy Listening, Greek) - My Station name",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "name": "Love, Athens (Easy Listening, Greek)",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/loveradio2018.png",
         "url": "http://loveradio.live24.gr/loveradio-1000",
     },
     {
@@ -255,7 +255,7 @@ RADIO_DATA = [
         "id": "31",
         "name": "Radio Argosaronikos, Nauplio (Greek Mainstream, Folk) - RADIO "
         "ARGOSARONIKOS 106,4FM",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/radioargosaronikos.png",
         "url": "http://s3.onweb.gr:8536",
     },
     {
@@ -263,7 +263,7 @@ RADIO_DATA = [
         "genres": ["Greek Folk"],
         "id": "32",
         "name": "Athens Radio, Athens (Greek Folk) - Athens Radio",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/athensfm1065.png",
         "url": "http://89.163.217.252:9400/stream",
     },
     {
@@ -279,7 +279,7 @@ RADIO_DATA = [
         "genres": ["Greek Folk"],
         "id": "34",
         "name": "Black Man, Athens (Greek Folk) - Marios Blackman",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/blackman.png",
         "url": "http://alpha-stream.eu:9326/;.mp3",
     },
     {
@@ -287,7 +287,7 @@ RADIO_DATA = [
         "genres": ["Tranditional", " Greek"],
         "id": "35",
         "name": "LyraFM, Athens (Tranditional, Greek) - LyraFM",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/lyrafm.png",
         "url": "http://172.93.237.106:8271/live",
     },
     {
@@ -295,7 +295,7 @@ RADIO_DATA = [
         "genres": ["Tranditional", " Greek"],
         "id": "36",
         "name": "Kriti FM, Athens (Tranditional, Greek) - KPHTH FM",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/kritifm_875.png",
         "url": "http://s3.onweb.gr:8878",
     },
     {
@@ -311,7 +311,7 @@ RADIO_DATA = [
         "genres": ["Local", " Greek"],
         "id": "38",
         "name": "Kanali 1, Piraeus (Local, Greek) - kanali1peiraia",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/kanali1peiraia.png",
         "url": "https://netradio.live24.gr/kanali1peiraia",
     },
     {
@@ -319,7 +319,7 @@ RADIO_DATA = [
         "genres": ["Local", " Greek"],
         "id": "39",
         "name": "Epikoinwnia, Iraklio Athens (Local, Greek) - epikoinonia94fm",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/epikoinonia.jpg",
         "url": "https://cc.vmakerhost.com/proxy/epikoinonia94fm",
     },
     {
@@ -327,7 +327,7 @@ RADIO_DATA = [
         "genres": ["News"],
         "id": "40",
         "name": "Sto Kokkino, Athens (News) - StoKokkino",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/stokokkino1055.png",
         "url": "https://stream.radiojar.com/kokkino-ath.mp3",
     },
     {
@@ -335,7 +335,7 @@ RADIO_DATA = [
         "genres": ["News"],
         "id": "41",
         "name": "Alpha, Athens (News) - Alpha 989",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/989alpha.png",
         "url": "https://stream.radiojar.com/xcdg6yggzfeuv",
     },
     {
@@ -343,7 +343,7 @@ RADIO_DATA = [
         "genres": ["News"],
         "id": "42",
         "name": "Real, Athens (News) - real-otenet",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/realfm.png",
         "url": "http://realfm2.live24.gr:80/realfm",
     },
     {
@@ -351,7 +351,7 @@ RADIO_DATA = [
         "genres": ["News"],
         "id": "43",
         "name": "Parapolitika, Athens (News) - no name",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/parapolitikafm.png",
         "url": "http://netradio.live24.gr/athinaradio",
     },
     {
@@ -359,7 +359,7 @@ RADIO_DATA = [
         "genres": ["News"],
         "id": "44",
         "name": "Athina 984, Athens (News) - Athina 984",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/athina984.png",
         "url": "http://athina984.live24.gr/athina984",
     },
     {
@@ -367,7 +367,7 @@ RADIO_DATA = [
         "genres": ["News"],
         "id": "45",
         "name": "Skai, Athens (News) - skai1003",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/skai1003.png",
         "url": "http://netradio.live24.gr/skai1003",
     },
     {
@@ -375,7 +375,7 @@ RADIO_DATA = [
         "genres": ["News"],
         "id": "46",
         "name": "Art, Athens (News) - Art 90,6",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/artfm906.png",
         "url": "https://stream.webmonster.gr/artfm906",
     },
     {
@@ -383,7 +383,7 @@ RADIO_DATA = [
         "genres": ["Sports News"],
         "id": "47",
         "name": "Sport FM, Athens (Sports News) - Nova Sports",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/sportfm946.png",
         "url": "http://sportfm.live24.gr/sportfm7712",
     },
     {
@@ -391,7 +391,7 @@ RADIO_DATA = [
         "genres": ["Sports News"],
         "id": "48",
         "name": "Sport 24, Athens (Sports News) - 24 Radio",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/sport24radio.png",
         "url": "http://n04.radiojar.com/r2aezx4wxxquv",
     },
     {
@@ -399,7 +399,7 @@ RADIO_DATA = [
         "genres": ["Sports News"],
         "id": "49",
         "name": "Over FM, Athens (Sports News) - Over FM",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/overfm.png",
         "url": "http://netradio.live24.gr/overfm-internet",
     },
     {
@@ -407,7 +407,7 @@ RADIO_DATA = [
         "genres": ["Religion"],
         "id": "50",
         "name": "Ekklhsia Ellados, Athens (Religion) - Ekklisia Ellados",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/ecclesia.png",
         "url": "http://85.10.206.222:8002",
     },
     {
@@ -423,7 +423,7 @@ RADIO_DATA = [
         "genres": ["News"],
         "id": "52",
         "name": "1, Prwto Programma (News) - Era 1",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/ert-protoprogramma.png",
         "url": "http://radiostreaming.ert.gr/ert-proto",
     },
     {
@@ -431,7 +431,7 @@ RADIO_DATA = [
         "genres": ["Art Music"],
         "id": "53",
         "name": "2, Deutero Programma (Art Music) - Era 2",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/ert-deuteroprogramma.png",
         "url": "http://radiostreaming.ert.gr/ert-deftero",
     },
     {
@@ -439,7 +439,7 @@ RADIO_DATA = [
         "genres": ["Classic Music"],
         "id": "54",
         "name": "3, Trito Programma (Classic Music) - Era 3",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/ert-tritoprogramma.png",
         "url": "http://radiostreaming.ert.gr/ert-trito",
     },
     {
@@ -447,7 +447,7 @@ RADIO_DATA = [
         "genres": ["Sports News"],
         "id": "55",
         "name": "4, Sport (Sports News) - Era Sport",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/ert-sport.png",
         "url": "http://radiostreaming.ert.gr/ert-erasport",
     },
     {
@@ -455,7 +455,7 @@ RADIO_DATA = [
         "genres": ["Jazz", " Ethnic"],
         "id": "56",
         "name": "Kosmos (Jazz, Ethnic) - Kosmos",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/ert-kosmos.png",
         "url": "http://radiostreaming.ert.gr/ert-kosmos",
     },
     {
@@ -463,7 +463,7 @@ RADIO_DATA = [
         "genres": ["News", " World"],
         "id": "57",
         "name": "Voice Of Greece (News, World) - Voice of Greece",
-        "poster": "https://www.shareicon.net/data/128x128/2016/08/04/806702_music_512x512.png",
+        "poster": "https://cdn.e-radio.gr/logos/gr/big/ert-foni.png",
         "url": "http://radiostreaming.ert.gr/ert-voiceofgreece",
     },
 ]
