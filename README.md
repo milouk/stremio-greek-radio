@@ -1,4 +1,4 @@
-## stremio-greek-tv
+## stremio-greek-radio
 Greek Radio Stremio addon
 
 ## Installation
