@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  traefik:
+      image: "traefik:v2.4"
+      networks:
+        - default
+      ports:
+        - "80:80"
+        - "443:443"
+      command:
+        - "--api.insecure=true"
+        - "--providers.docker=true"
+        - "--providers.docker.exposedbydefault=false"
+        - "--entrypoints.http.address=:80"
+        - "--entrypoints.https.address=:443"
+        - "--certificatesresolvers.le.acme.email=loukerismichalis@gmail.com"
+        - "--certificatesresolvers.le.acme.storage=/certificates/acme.json"
+        - "--certificatesresolvers.le.acme.tlschallenge=true"
+        - "--accesslog"
+        - "--log"
+      volumes:
+        - "/var/run/docker.sock:/var/run/docker.sock:ro"
+        - "traefik-public-certificates:/certificates"
+      labels:
+        - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
+        - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
+        - traefik.http.routers.traefik-dashboard-http.middlewares=https-redirect
+
+  addon:
+    stdin_open: true
+    tty: true
+    build:
+      dockerfile: Dockerfile
+      context: .
+    networks:
+      - default
+    ports:
+      - 8000:8000
+    volumes:
+      - ./app:/app
+    environment:
+      BIND: "0.0.0.0:8000"
+      HOST: "0.0.0.0"
+      PORT: 8000
+    labels:
+      - traefik.enable=true
+      - traefik.http.services.app.loadbalancer.server.port=8000
+      - traefik.http.routers.app-http.entrypoints=http
+      - traefik.http.routers.app-http.rule=Host(`stremio.duckdns.org`)
+      - traefik.http.routers.app-https.entrypoints=https
+      - traefik.http.routers.app-https.rule=Host(`stremio.duckdns.org`)
+      - traefik.http.routers.app-https.tls=true
+      - traefik.http.routers.app-https.tls.certresolver=le
+      - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
+      - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
+      - traefik.http.routers.app-http.middlewares=https-redirect
+
+
+volumes:
+  traefik-public-certificates:
