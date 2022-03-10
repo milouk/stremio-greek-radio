@@ -2,7 +2,11 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI
 
-from radio_data import RADIO_DATA
+from helper import (
+    get_genres,
+    get_catalog,
+    get_streams,
+)
 
 app = FastAPI()
 app.add_middleware(
@@ -12,12 +16,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-
-def get_genres():
-    genres = set()
-    for item in RADIO_DATA:
-        genres.add(itm for itm in item["genres"])
 
 
 LOGO_URL = \
@@ -45,27 +43,6 @@ MANIFEST = {
     ],
     "idPrefixes": [""]
 }
-
-
-def get_streams():
-    streams = {}
-    for entry in RADIO_DATA:
-        streams[entry["id"]] = {
-                 'title': "Listen to %s" % entry["name"],
-                 'url': entry["url"], }
-    return streams
-
-
-def get_catalog():
-    catalog = []
-    for entry in RADIO_DATA:
-        catalog.append({
-            "id": entry["id"],
-            "name": entry["name"],
-            "genres": entry["genres"],
-            "poster": entry["poster"],
-        })
-    return catalog
 
 
 @app.get('/manifest.json')
