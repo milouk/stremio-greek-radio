@@ -2,7 +2,7 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI
 
-from helper import (
+from helpers import (
     get_genres,
     get_catalog,
     get_streams,
