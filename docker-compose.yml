@@ -4,13 +4,14 @@ services:
   traefik:
       image: "traefik:v2.4"
       networks:
-        - default
+        - traefik_public
       ports:
         - "80:80"
         - "443:443"
       command:
         - "--api.insecure=true"
         - "--providers.docker=true"
+        - "--providers.docker.network=traefik_public"
         - "--providers.docker.exposedbydefault=false"
         - "--entrypoints.http.address=:80"
         - "--entrypoints.https.address=:443"
@@ -34,7 +35,7 @@ services:
       dockerfile: Dockerfile
       context: .
     networks:
-      - default
+      - traefik_public
     ports:
       - 8000:8000
     volumes:
@@ -59,3 +60,7 @@ services:
 
 volumes:
   traefik-public-certificates:
+
+networks:
+  traefik_public:
+      external: True
